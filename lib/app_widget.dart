@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tarefas_wear/pages/home/home_page.dart';
+import 'package:tarefas_wear/pages/tarefa/tarefa_page.dart';
+import 'package:wear/wear.dart';
 
 class AppWidget extends StatelessWidget {
   const AppWidget({super.key});
@@ -12,8 +14,8 @@ class AppWidget extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/':(context) => HomePage(),
+        '/':(context) => TarefaPage(),
       },
-    );
+       );
   }
 }
