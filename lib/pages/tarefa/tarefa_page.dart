@@ -49,7 +49,7 @@ class _TarefaPageState extends State<TarefaPage> {
                           crossAxisAlignment: CrossAxisAlignment.center,
                           children: [
                             Text(tarefas![index].titulo),
-                            Text('Correr 8km em 3h'),
+                            Text(tarefas![index].descricao),
                             TextButton(
                               onPressed: (){}, 
                               child: Text('Terminar')
